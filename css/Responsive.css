@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1024px) {
+
+.nav {display:none;}
+.navbar      {
+               width:100px;
+			   float:left;
+			   }
+.Navbar_Div .Mobile_Menu {
+display:block }
+
+.Mymixitup .mix img {width:30rem;
+                     height:20rem;}
+             
+.footer_sec .container .row  a {margin-left: 2rem;
+			   }
+}
+
+
+
+@media only screen and (max-width: 980px) {
+
+.Testomonial_Membar .Testomonial_About {text-align:left;
+                    width:100%;
+                    float:right;}
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+.Mymixitup .mix img {width:25rem;
+                     height:15rem;}
+}
+
+

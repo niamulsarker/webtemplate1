@@ -1,0 +1,360 @@
+*{margin:0px;
+ padding:0;
+ -webkit-box-sizing:border-box;
+ box-sizing:border-box
+}
+html {
+ font-size:62.5%;
+ scroll-behavior:smooth
+}
+body {
+ font-family:titillium web,sans-serif;
+ line-height:1.3;
+ font-size:1.6rem
+}
+ul li {
+ list-style-type:none
+}
+a {text-decoration:none;
+   text-transform: uppercase;}
+h1 {
+ font-size:4.2rem;
+ color:#fff
+}
+:focus {
+ outline:0
+}
+section {
+ padding:8rem 0
+}
+h2 {
+ font-size:4rem;
+ text-transform:uppercase;
+ letter-spacing:.3rem;
+ font-weight:600;
+ margin-top:0;
+ margin-bottom:2rem;
+ color:#fff;
+ text-align:center
+}
+h2::after {
+ content:"";
+ display:block;
+ height:.4rem;
+ background:#fff;
+ width:8.5rem;
+ margin:auto;
+ margin-top:2rem
+}
+h3 {
+ font-size:2.4rem;
+ text-transform:uppercase;
+ font-weight:600;
+ color:#fff;
+ margin-top:2rem 0;
+}
+h4 {
+ font-size:1.8rem;
+ font-weight:400;
+ text-transform:uppercase;
+ margin-top:2.5rem
+}
+.btn,
+.btn:link,
+.btn:visited {
+ background:#333;
+ color:#fff;
+ text-decoration:none;
+ text-transform:uppercase;
+ padding:1.5rem 6rem;
+ border-radius:.3rem;
+ display:inline-block;
+ margin-top:4.5rem;
+ font-size:1.6rem
+}
+
+.little-description {
+ font-size:1.8rem;
+ width:60%;
+ margin-left:20%;
+ line-height:3rem;
+ color:#fff;
+}
+/* Home_Section */
+
+.Home_Section {background:linear-gradient(rgba(135, 80, 156, 0.91),rgba(135, 80, 156, 0.91)),url(background_1.jpg);
+               background-attachment:fixed;
+			   background-size:cover;
+			   background-repeat:no-repeat;
+			   background-position:center center;
+               padding:0;
+			   }
+				 
+.Navbar_Div {width:114rem;
+            padding-top:30px;
+            margin: auto;
+			overflow:hidden;}
+
+.nav a img{margin-right:30rem;}
+
+.nav li a { color:#fff;
+            border-radius: .3rem;
+            margin-left: 20px;
+            font-size: 17px;}
+					
+
+.nav li a:hover {background:#643a79}
+
+.Mobile_Menu {
+    float: right;
+    font-size: 4rem;
+    margin-right: 2rem;
+	color:#fff;
+	display:none;}
+.sticky {position:fixed;
+         top:0;
+		 left:0;
+         background:rgba(135, 80, 156, .88);
+		 width:100%;
+		 z-index:99;
+		 padding-top:0px;
+		 margin-left:0;}
+			 
+.MobileM_bar {
+         position:fixed;
+		 top:0;
+		 left:0;
+		 background:rgba(31, 31, 32, 0.89);
+		 overflow:hidden;
+		 z-index:100;
+		 width:0%;
+		 height:100%;
+		 transition:.4s;
+		 }
+
+.MobileM_bar .close_MobilM {float: right;
+							font-size: 5rem;
+							color: #a29d9d;
+							margin-right: 5rem;}		 
+		 
+.overlay_contant {
+				  text-align:center;
+				  margin-top:35%;
+				   
+				  }
+
+.overlay_contant a {
+    text-decoration: none;
+    color: #a29d9d;
+    display: block;
+    padding-top: 2rem;
+    font-size: 2.5rem;}				  
+
+.Home_Section_Detials  {width:100rem;
+                        text-align:center;
+						margin:auto;
+						padding-top:14rem
+                          }
+.Home_Section_Detials h2 {font-size:4.2rem}                     
+
+.Home_Section_Detials .btn {background:#EB7D4B;
+                            margin-bottom:20rem;}
+
+.Home_Section_Detials .btn:hover{background:white;
+                                  color:#EB7D4B}
+ /* service-section */
+ 
+ .Service_Section {text-align:center;
+                  background:linear-gradient(rgba(23, 194, 164, 0.87),rgba(23, 194, 164, 0.87)),url(background_2.jpg);
+				  background-repeat:no-repeat;
+				  background-size:cover;
+				  }
+	
+
+	
+ .Service_Section .lead{font-size: 1.85rem;
+                       font-weight: 360;
+                       color: #fff;
+					   margin-top:3rem}
+					   
+.Service_Section img {padding:4rem 0;}
+
+/* Team_Section */
+
+.Team-Section {background:linear-gradient(rgba(231, 241, 248, 0.8),rgba(231, 241, 248, 0.8)),url(background_3.jpg);
+              background-attachment:fixed;
+			  background-repeat:no-repeat;
+			  background-size:cover;
+			  width:100%;
+              text-align:center;}
+		  
+	
+.Team-Section img{border-radius:10rem;}
+
+.Team-Section h2 {color:#000;}
+
+.Team-Section  h3 {margin-top:2rem;
+                  margin-bottom:.5rem;}
+				  
+.Team-Section h4 {font-size:10px;}	
+
+.Team-Section h5 { font-size: 1.65rem;
+                   margin-bottom: 3rem;
+                   color: #30bae7;}		
+
+.Team-Section a {background: #BDD1DF;
+                color:white;
+				padding: .3rem .9rem;
+				border-radius: 4rem;
+				font-size: 18px;
+				margin-right:1rem;
+				transition:1s;}
+
+.Team-Section p{margin-bottom:3rem;} 				
+				
+.Team-Section a:hover {background:black;
+                      }	
+/* Skill Section */
+.Skill_Section {background:linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)),url(background_4.jpg);
+               background-repeat:no-repeat;
+			   background-size:cover;
+               text-align:center;
+			   color:red;
+			   padding:6rem 0px;
+			   }	
+
+
+
+.Skill_Section h2,h3 {color:#3C4761;
+                   }
+				   
+.Skill_Section  h2:after {
+			 content:"";
+			 display:block;
+			 height:.4rem;
+			 background:#3C4761;
+			 width:8.5rem;
+			 margin:auto;
+			 margin-top:2rem
+}
+
+.Skill_Section p {color:#3d4761;}
+
+/* Protfolio Section */
+
+.protfoliol_sec  {background:linear-gradient(rgba(255, 221, 153, 0.91),rgba(255, 221, 153, 0.91)),url(background_5.jpg);
+                 background-attachment:fixed;
+				 background-size:cover;
+				 background-repeat:no-repeat;
+				 background-position:center top;
+				 text-align:center;
+				 }	
+					   
+.protfoliol_sec h2 {color:#393939;}	
+
+.protfoliol_sec h2:after {
+			 content:"";
+			 display:block;
+			 height:.4rem;
+			 background:#EBC985;
+			 width:8.5rem;
+			 margin:auto;
+			 margin-top:2rem
+}
+
+.protfoliol_sec  p {color:#393939}
+
+#mixitup_button {margin:3rem 0;}
+
+#mixitup_button button {padding: 1rem 2rem;   
+                       border:none;
+                       border-radius:.5rem;
+					   outline:noe;
+					   margin-left:1rem;
+					   background:#EBC985;
+					   font-size: 2rem;
+					   margin-top:2rem;
+					   }
+
+.mix {display:inline-block;
+     margin-top:4rem;}
+
+.mix img {width:50rem;
+          height:30rem;}
+/* Testomonial Section  */
+
+.Testomonial_Sec {background:linear-gradient(rgba(215, 70, 128, 0.92),rgba(215, 70, 128, 0.92)),url(background_6.jpg);
+                  background-size:cover;
+				  background-repeat:no-repeat;
+				  text-align:center;
+                  }
+
+.Testomonial_img {width:10rem;
+                 height:10rem;
+				 float:left;}
+
+.Testomonial_img img{width:8rem;
+                     height:8rem;
+			    	 border-radius:4rem;
+				     }
+
+.Testomonial_About {text-align:left;
+                    width:40rem;
+                    float:right;}
+.Testomonial_About  .little-description		{margin-left:0;}
+
+.Testomonial_About h3 {color:#fff;}
+
+.Testomonial_About h5 {color:#fd9;
+                       font-size: 1.6rem;}	
+/* Contact_Sec */
+.Contact_Sec {background:linear-gradient(rgba(60, 84, 153, 0.92),rgba(60, 84, 153, 0.92)),url(background_7.jpg);
+             background-attachment:fixed;
+			 background-size:cover;
+			 background-repeat:no-repeat;
+			 text-align:center;
+			 position:relative;
+			 }					   
+
+
+.Contact_Sec input,.Contact_Sec textarea {padding:2.5rem;
+                    border: .1rem solid #273a71;
+					border-radius:.5rem;
+					font-Size:2rem;
+					margin-top:3rem;
+					background:rgb(39, 58, 113);
+					outline:none;
+					}
+.Contact_Sec textarea:focus {background:#273A71;
+                             border:none;  
+                             }
+
+.Contact_Sec input:focus {background:#273A71;
+                         border:none;
+						 } 
+	
+.Contact_Sec ::placeholder{color:#fff;
+                           opacity:1;}	
+
+.Contact_Sec button {color:#FFF;
+                background:#30BAE7;
+				}
+.Contact_Sec button:hover {background:#FFF;
+                 color:#30BAE7;
+				}
+/* Fotter Section*/
+
+.footer_sec {text-align:center;
+            padding:4rem 0;
+			background:#344B8E;
+			width:100%;}
+	
+.footer_sec  a:first-child{margin-left:0;}
+	
+.footer_sec  a {margin-left: 10rem;
+               color: #fff;
+			   font-size:2rem;
+			   }
+	  
+.footer_sec  a:hover {color:Gray;
+                      text-decoration:none;}	  
